@@ -13,6 +13,7 @@
         app:iconTintActive="@color/black"
         android:layout_width="match_parent"
         android:layout_height="70dp"
+        android:backgroundTintMode="add"
         app:backgroundColor="#E5E5E5"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
