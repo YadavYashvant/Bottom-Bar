@@ -6,6 +6,14 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
+    <FrameLayout
+        android:id="@+id/flFragment"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toTopOf="@+id/bottom_bar" />
+
     <me.ibrahimsn.lib.SmoothBottomBar
         android:id="@+id/bottom_bar"
         app:iconTint="@color/black"
@@ -14,7 +22,7 @@
         android:layout_width="match_parent"
         android:layout_height="70dp"
         android:backgroundTintMode="add"
-        app:backgroundColor="#E5E5E5"
+        app:backgroundColor="#FFFFFF"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
